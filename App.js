@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const heading = React.createElement(
   "div", 
   {id : "heading"},
@@ -8,7 +11,7 @@ const heading = React.createElement(
   React.createElement(
     "h2", 
     {id : "heading2"},
-    "Heading inside Heading1")]
+    "Getting Started With React js")]
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
